@@ -33,7 +33,7 @@ Publications
 {% for post in corr %}
 <p style="margin-bottom:0.9em;">
 {% if post.paperurl %}<a href="{{ post.paperurl }}"><b>{{ post.title }}</b></a>{% else %}<b>{{ post.title }}</b>{% endif %}<br>
-<span style="font-size:0.92em;">{{ post.authors }}. <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}.{% if post.tag and post.tag != "" %} <b>{{ post.tag }}</b>{% endif %}</span>
+<span style="font-size:0.92em;">{% if post.authors and post.authors != "" %}{{ post.authors }}. {% endif %}<i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}.{% if post.tag and post.tag != "" %} <b>{{ post.tag }}</b>{% endif %}</span>
 </p>
 {% endfor %}
 
