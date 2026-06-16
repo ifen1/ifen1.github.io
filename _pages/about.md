@@ -29,7 +29,6 @@ Publications
 </p>
 {% endfor %}
 
-<p style="margin:1.4em 0 0.5em;font-weight:700;">Corresponding Author</p>
 {% assign corr = site.publications | where: "group", "corresponding" | sort: "date" | reverse %}
 {% for post in corr %}
 <p style="margin-bottom:0.9em;">
@@ -38,12 +37,11 @@ Publications
 </p>
 {% endfor %}
 
-<p style="margin:1.4em 0 0.5em;font-weight:700;">Best Paper Award</p>
 {% assign awd = site.publications | where: "group", "award" | sort: "date" | reverse %}
 {% for post in awd %}
 <p style="margin-bottom:0.9em;">
 {% if post.paperurl %}<a href="{{ post.paperurl }}"><b>{{ post.title }}</b></a>{% else %}<b>{{ post.title }}</b>{% endif %}<br>
-<span style="font-size:0.92em;">{{ post.authors }}. <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}.</span>
+<span style="font-size:0.92em;">{{ post.authors }}. <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}. <span style="color:#b04a1f;font-weight:600;">Best Paper Award</span></span>
 </p>
 {% endfor %}
 
