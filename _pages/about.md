@@ -17,7 +17,7 @@ Publications
 {% for post in pre %}
 <p style="margin-bottom:0.9em;">
 {% if post.paperurl %}<a href="{{ post.paperurl }}"><b>{{ post.title }}</b></a>{% else %}<b>{{ post.title }}</b>{% endif %}<br>
-<span style="font-size:0.92em;">{{ post.authors }}. <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}.{% if post.tag and post.tag != "" %} <span style="color:#2a7ae2;font-weight:600;">{{ post.tag }}</span>{% endif %}</span>
+<span style="font-size:0.92em;">{{ post.authors }}. <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}.{% if post.tag and post.tag != "" %} <span style="background:#14507a;color:#fff;font-weight:700;font-size:0.78em;letter-spacing:0.4px;padding:2px 7px;border-radius:4px;vertical-align:middle;">{{ post.tag }}</span>{% endif %}</span>
 </p>
 {% endfor %}
 
@@ -25,7 +25,7 @@ Publications
 {% for post in mains %}
 <p style="margin-bottom:0.9em;">
 {% if post.paperurl %}<a href="{{ post.paperurl }}"><b>{{ post.title }}</b></a>{% else %}<b>{{ post.title }}</b>{% endif %}<br>
-<span style="font-size:0.92em;">{{ post.authors }}. <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}.{% if post.tag and post.tag != "" %} <span style="color:#2a7ae2;font-weight:600;">{{ post.tag }}</span>{% endif %}</span>
+<span style="font-size:0.92em;">{{ post.authors }}. <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}.{% if post.tag and post.tag != "" %} <span style="background:#14507a;color:#fff;font-weight:700;font-size:0.78em;letter-spacing:0.4px;padding:2px 7px;border-radius:4px;vertical-align:middle;">{{ post.tag }}</span>{% endif %}</span>
 </p>
 {% endfor %}
 
@@ -33,7 +33,7 @@ Publications
 {% for post in corr %}
 <p style="margin-bottom:0.9em;">
 {% if post.paperurl %}<a href="{{ post.paperurl }}"><b>{{ post.title }}</b></a>{% else %}<b>{{ post.title }}</b>{% endif %}<br>
-<span style="font-size:0.92em;">{% if post.authors and post.authors != "" %}{{ post.authors }}. {% endif %}<i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}.{% if post.tag and post.tag != "" %} <b>{{ post.tag }}</b>{% endif %}</span>
+<span style="font-size:0.92em;">{% if post.authors and post.authors != "" %}{{ post.authors }}. {% endif %}<i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}. <b>corresponding author</b>{% if post.tag and post.tag != "" %} <span style="background:#14507a;color:#fff;font-weight:700;font-size:0.78em;letter-spacing:0.4px;padding:2px 7px;border-radius:4px;vertical-align:middle;">{{ post.tag }}</span>{% endif %}</span>
 </p>
 {% endfor %}
 
@@ -41,7 +41,7 @@ Publications
 {% for post in awd %}
 <p style="margin-bottom:0.9em;">
 {% if post.paperurl %}<a href="{{ post.paperurl }}"><b>{{ post.title }}</b></a>{% else %}<b>{{ post.title }}</b>{% endif %}<br>
-<span style="font-size:0.92em;">{{ post.authors }}. <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}. <span style="color:#b04a1f;font-weight:600;">Best Paper Award</span></span>
+<span style="font-size:0.92em;">{{ post.authors }}. <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}. <span style="background:#b04a1f;color:#fff;font-weight:700;font-size:0.78em;letter-spacing:0.4px;padding:2px 7px;border-radius:4px;vertical-align:middle;">Best Paper Award</span></span>
 </p>
 {% endfor %}
 
