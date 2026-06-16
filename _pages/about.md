@@ -45,14 +45,9 @@ Publications
 </p>
 {% endfor %}
 
-Education
-======
-* **Ph.D. in Computer Science and Engineering**, HKUST, 2025 – Present
-  * Advisor: [Prof. Shuai Wang](https://home.cse.ust.hk/~shuaiw/)
-
 Honors & Awards
 ======
-* **National Scholarship** (Top 1%, ×3), Ministry of Education — 2021–2024
+* **National Scholarship** (Top 1%, ×3), Ministry of Education — 2020, 2021 & 2024
 * **Outstanding Undergraduate Thesis** — 2025
 * **Best Paper Award**, ICTC — 2024
 * **First Prize**, Chinese Mathematics Competitions (CMC) — 2020
