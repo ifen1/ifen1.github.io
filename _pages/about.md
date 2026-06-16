@@ -13,7 +13,7 @@ Research
 ======
 My research journey began with the security of deep neural networks — studying stealthy backdoors that hide across the spatial, frequency, and feature domains, and the defenses that counter them without task-specific data or retraining. As large language models and agents became the new substrate of AI, I carried the same questions forward: protecting the intellectual property of Mixture-of-Expert LLMs, making agents more token-efficient and reliable, and probing how far pure-text reasoning can reach. I am now extending these trustworthiness and security questions to **embodied AI** — agents that perceive and act in the physical world.
 
-**Keywords:** AI Security · LLM & Agent Security · Embodied AI Security · Trustworthy Machine Learning
+AI Security · LLM & Agent Security · Embodied AI Security · Trustworthy Machine Learning
 
 <h1 id="publications" style="border-bottom:1px solid #f2f3f3;padding-bottom:0.5em;margin-bottom:0.8em;">Publications <a href="https://scholar.google.com/citations?user=Zl_y8koAAAAJ" target="_blank" rel="noopener" style="font-size:0.5em;font-weight:400;vertical-align:middle;">[full list]</a></h1>
 {% assign pre = site.publications | where: "group", "preprint" | sort: "date" | reverse %}
