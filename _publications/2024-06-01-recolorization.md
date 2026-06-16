@@ -8,5 +8,6 @@ date: 2024-06-01
 venue: 'IEEE Transactions on Information Forensics and Security (TIFS)'
 authors: 'H. Chen, <b>Y. Gao</b>, A. Zhang, P. Sun, W. Liu, X. Wang'
 tag: 'CCF-A'
+group: 'main'
 citation: 'H. Chen, <b>Y. Gao</b>, A. Zhang, P. Sun, W. Liu, X. Wang. (2024). "Investigating the Backdoor on DNNs Based on Recolorization and Reconstruction." <i>IEEE Transactions on Information Forensics and Security (TIFS)</i>. (CCF-A)'
 ---

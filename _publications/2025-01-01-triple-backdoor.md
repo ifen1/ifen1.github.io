@@ -8,5 +8,6 @@ date: 2025-01-01
 venue: 'IEEE Transactions on Dependable and Secure Computing (TDSC)'
 authors: '<b>Y. Gao</b>, H. Chen, P. Sun, J. Li, Y. Yin, Z. Wang, W. Liu'
 tag: 'CCF-A'
+group: 'main'
 citation: '<b>Y. Gao</b>, H. Chen, P. Sun, J. Li, Y. Yin, Z. Wang, W. Liu. (2025). "A Triple Stealthy Backdoor: Hidden in Spatial, Frequency, and Feature Domains." <i>IEEE Transactions on Dependable and Secure Computing (TDSC)</i>. (CCF-A)'
 ---

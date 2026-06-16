@@ -7,6 +7,7 @@ excerpt: 'Lightweight privacy protection against channel-level gradient leakage 
 date: 2024-10-01
 venue: 'International Conference on Information and Communication Technology Convergence (ICTC)'
 authors: 'Z. Li, H. Chen, <b>Y. Gao</b>, H. Xue'
-tag: 'Best Paper Award'
+tag: ''
+group: 'award'
 citation: 'Z. Li, H. Chen, <b>Y. Gao</b>, H. Xue. (2024). "Lightweight Privacy Protection Against Channel-Level Gradient Leakage Attack in Federated Learning." <i>International Conference on Information and Communication Technology Convergence (ICTC)</i>. <b>Best Paper Award.</b>'
 ---

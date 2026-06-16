@@ -8,5 +8,6 @@ date: 2026-01-01
 venue: 'arXiv preprint'
 authors: '<b>Y. Gao</b>, Z. Li, Y. Yuan, Z. Ji, P. Ma, S. Wang'
 tag: ''
+group: 'preprint'
 citation: '<b>Y. Gao</b>, Z. Li, Y. Yuan, Z. Ji, P. Ma, S. Wang. (2026). "SkillReducer: Optimizing LLM Agent Skills for Token Efficiency." <i>arXiv preprint</i>.'
 ---

@@ -13,10 +13,38 @@ My research centers on **AI security** — spanning LLM & agent security, backdo
 
 Publications
 ======
-{% for post in site.publications reversed %}
+{% assign mains = site.publications | where: "group", "main" | sort: "date" | reverse %}
+{% for post in mains %}
 <p style="margin-bottom:0.9em;">
 {% if post.paperurl %}<a href="{{ post.paperurl }}"><b>{{ post.title }}</b></a>{% else %}<b>{{ post.title }}</b>{% endif %}<br>
 <span style="font-size:0.92em;">{{ post.authors }}. <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}.{% if post.tag and post.tag != "" %} <span style="color:#2a7ae2;font-weight:600;">{{ post.tag }}</span>{% endif %}</span>
+</p>
+{% endfor %}
+
+<p style="margin:1.4em 0 0.5em;font-weight:700;">Corresponding Author</p>
+{% assign corr = site.publications | where: "group", "corresponding" | sort: "date" | reverse %}
+{% for post in corr %}
+<p style="margin-bottom:0.9em;">
+{% if post.paperurl %}<a href="{{ post.paperurl }}"><b>{{ post.title }}</b></a>{% else %}<b>{{ post.title }}</b>{% endif %}<br>
+<span style="font-size:0.92em;">{{ post.authors }}. <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}.{% if post.tag and post.tag != "" %} <span style="color:#2a7ae2;font-weight:600;">{{ post.tag }}</span>{% endif %}</span>
+</p>
+{% endfor %}
+
+<p style="margin:1.4em 0 0.5em;font-weight:700;">Preprints</p>
+{% assign pre = site.publications | where: "group", "preprint" | sort: "date" | reverse %}
+{% for post in pre %}
+<p style="margin-bottom:0.9em;">
+{% if post.paperurl %}<a href="{{ post.paperurl }}"><b>{{ post.title }}</b></a>{% else %}<b>{{ post.title }}</b>{% endif %}<br>
+<span style="font-size:0.92em;">{{ post.authors }}. <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}.{% if post.tag and post.tag != "" %} <span style="color:#2a7ae2;font-weight:600;">{{ post.tag }}</span>{% endif %}</span>
+</p>
+{% endfor %}
+
+<p style="margin:1.4em 0 0.5em;font-weight:700;">Best Paper Award</p>
+{% assign awd = site.publications | where: "group", "award" | sort: "date" | reverse %}
+{% for post in awd %}
+<p style="margin-bottom:0.9em;">
+{% if post.paperurl %}<a href="{{ post.paperurl }}"><b>{{ post.title }}</b></a>{% else %}<b>{{ post.title }}</b>{% endif %}<br>
+<span style="font-size:0.92em;">{{ post.authors }}. <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}.</span>
 </p>
 {% endfor %}
 
