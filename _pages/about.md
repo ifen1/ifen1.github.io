@@ -9,7 +9,7 @@ redirect_from:
 
 I am a Ph.D. student in Computer Science and Engineering at the **Hong Kong University of Science and Technology (HKUST)**, advised by [Prof. Shuai Wang](https://home.cse.ust.hk/~shuaiw/). I completed a combined B.Eng.–M.Eng. program at the China University of Petroleum (East China) under Prof. Honglong Chen, and was previously a Research Assistant at the College of William & Mary with Prof. Huajie Shao (2023–2024).
 
-My research centers on **AI security** — spanning LLM & agent security, backdoor attacks and defenses, embodied AI security, and trustworthy machine learning.
+My research centers on **AI security** — spanning LLM & agent security, embodied AI security, and trustworthy machine learning.
 
 Publications
 ======
