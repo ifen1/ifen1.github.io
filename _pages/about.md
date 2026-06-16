@@ -13,6 +13,7 @@ My research centers on **AI security** — spanning LLM & agent security, embodi
 
 Publications
 ======
+<p style="margin:-0.4em 0 0.9em;font-size:0.9em;"><a href="https://scholar.google.com/citations?user=Zl_y8koAAAAJ" target="_blank" rel="noopener">[full list]</a></p>
 {% assign pre = site.publications | where: "group", "preprint" | sort: "date" | reverse %}
 {% for post in pre %}
 <p style="margin-bottom:0.9em;">
