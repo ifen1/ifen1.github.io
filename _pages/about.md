@@ -11,9 +11,7 @@ I am a Ph.D. student in Computer Science and Engineering at the **Hong Kong Univ
 
 My research centers on **AI security** — spanning LLM & agent security, embodied AI security, and trustworthy machine learning.
 
-Publications
-======
-<p style="margin:-0.4em 0 0.9em;font-size:0.9em;"><a href="https://scholar.google.com/citations?user=Zl_y8koAAAAJ" target="_blank" rel="noopener">[full list]</a></p>
+<h1 id="publications" style="border-bottom:1px solid #f2f3f3;padding-bottom:0.5em;margin-bottom:0.8em;">Publications <a href="https://scholar.google.com/citations?user=Zl_y8koAAAAJ" target="_blank" rel="noopener" style="font-size:0.5em;font-weight:400;vertical-align:middle;">[full list]</a></h1>
 {% assign pre = site.publications | where: "group", "preprint" | sort: "date" | reverse %}
 {% for post in pre %}
 <p style="margin-bottom:0.9em;">
