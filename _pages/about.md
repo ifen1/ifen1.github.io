@@ -11,8 +11,6 @@ I am a Ph.D. student in Computer Science and Engineering at the **Hong Kong Univ
 
 My research centers on **AI security** — spanning LLM & agent security, backdoor attacks and defenses, embodied AI security, and trustworthy machine learning.
 
-**Research interests:** AI Security · LLM & Agent Security · Embodied AI Security · Trustworthy Machine Learning
-
 Publications
 ======
 {% for post in site.publications reversed %}
